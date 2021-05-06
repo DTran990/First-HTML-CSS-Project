@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7b1edd6a3a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css\RealEstate.css">
+  <title>SilverRock | Buy Now</title>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+         <h1><a href="RealEstate.html"> SilverRock Estate</a></h1>
+        <ul>
+          <li><a href="RealEstate.html">Home</a></li>
+          <li><a href="RealEstateAbout.html" >About</a></li>
+          <li><a class="current" href="RealEstateBuy.html" >Buy</a></li>
+          <li><a href="RealEstateSell.html" >Sell</a></li>
+          <li><a href="RealEstateContact.html" >Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="search-block">
+    <div id="search-bar">
+      <h2>Start Your Search</h2>
+      <form>
+        <label for="search">Search: </label>
+        <input type="text" id="search" placeholder="Search by Address,City,ZIP, & More">
+        <a href="#"><i class="fas fa-search"></i> </a><br>
+        <label for="price">Price Range</label>
+        <select name="Price-minimum" id="price">
+          <option value="Min">Min</option>
+          <option value="$0+">$0</option>
+          <option value="$10000+">$10000</option>
+          <option value="$25000+">$25000</option>
+          <option value="$50000+">$50000</option>
+          <option value="$100000+">$100000</option>
+          <option value="$500000+">$500000</option>
+          <option value="$1000000+">$1000000</option>
+        </select>
+        <label id="smaller"> to </label>
+        <select name="Price-maximum" id="price">
+          <option value="Max">Max</option>
+          <option value="$10000+">$10000</option>
+          <option value="$25000+">$25000</option>
+          <option value="$50000+">$50000</option>
+          <option value="$100000+">$100000</option>
+          <option value="$500000+">$500000</option>
+          <option value="$1000000+">$1000000</option>
+        </select>
+        <label> Bed: </label>
+        <select name="Bed" id="bed">
+          <option value="Any">Any</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4+">4+</option>
+        </select>
+        <label > Bath: </label>
+        <select name="Bath" id="bath">
+          <option value="Any">Any</option>
+          <option value="$10000+">$10000</option>
+          <option value="$25000+">$25000</option>
+          <option value="$50000+">$50000</option>
+          <option value="$100000+">$100000</option>
+          <option value="$500000+">$500000</option>
+          <option value="$1000000+">$1000000</option>
+        </select><br><br>
+        <label>Property Type: </label> <br>
+        <label class="filter"><input type="checkbox" class="type" name="Single Family" value="Single Family">Single Family</label>
+        <label class="filter"><input type="checkbox" class="type" name="Townhouse/Villa" value="Townhouse/Villa">Townhouse/Villa</label>
+        <label class="filter"><input type="checkbox" class="type" name="Condo" value="Condo">Condo</label>
+        <label class="filter"><input type="checkbox" class="type" name="Land" value="Land">Land</label>
+        <label class="filter"><input type="checkbox" class="type" name="Farmhouse" value="Farmhouse">Farmhouse</label><br>
+        <label class="filter"><input type="checkbox" class="type" name="Multi-Family" value="Multi-Family">Multi-Family</label>
+    </form>
+    </div>
+    <div id="contact-box">
+      <h2>Any Questions?</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolor totam ab perferendis aliquam temporibus assumenda dolore, voluptatem reprehenderit perspiciatis amet nulla, vero sequi nobis dolores optio ullam est odio harum placeat consequatur illo distinctio sit a. Aspernatur fuga odio sunt a, totam non maiores nulla doloremque voluptatem quo veniam.</p>
+      <a href="RealEstateContact.html" class="btn">Contact Us</a>
+    </div>
+  </section>
+  <footer>
+    <div id="footerpic">
+      <h3>Follow Us</h3>
+      <div id="blocks">
+        <div class="socialblock">
+          <a href="#"><i class="fab fa-facebook fa-3x" ></i></a>
+        </div>
+        <div class="socialblock">
+          <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+        </div>
+        <div class="socialblock">
+          <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+        </div>
+        <div class="socialblock">
+          <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="clr"></div>
+    <div id="footer">
+      <h3>Copyright &copy 2020 SilverRock</h3>
+    </div>
+  </footer>
+</body>
+</html>

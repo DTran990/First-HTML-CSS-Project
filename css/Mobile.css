@@ -1,0 +1,50 @@
+#mainpic{
+  height:800px;
+}
+.socialblock{
+  float:none;
+  display:block;
+  padding:15px 0px;
+  margin:auto;
+}
+
+#main{
+  height:450px
+}
+#main #head{
+  text-align:center;
+  padding-top:50px;
+  float:none;
+  width:100%;
+}
+h3{
+  padding:15px 0px;
+}
+#main #head h2, #main #head p{
+  text-align:center;
+  margin:5px;
+  padding:0px 15px;
+}
+#main #head #dark{
+  margin-top:150px;
+}
+#pic{
+  float:none;
+  display:none;
+}
+#about-body{
+  height:800px;
+}
+.box2{
+  float:none;
+  width:100%;
+}
+.etd{
+  display:block;
+  margin:auto;
+  margin-right:45px;
+}
+.box2 i{
+  display:block;
+  margin:auto;
+}
